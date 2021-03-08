@@ -1,0 +1,31 @@
+### GET CONTACTS
+GET http://localhost:3500/api/contacts
+
+### GET CONTACT BY ID
+GET http://localhost:3500/api/contacts/601eb51d6dea6f09983da83e
+
+### CREATE A NEW CONTACT
+POST http://localhost:3500/api/contacts
+Content-Type: application/json
+
+{
+    "name":"asfsihfois",
+    "lastname":"ashfoshf",
+    "address":"asfhi hfahsofi, pasojfps",
+    "phone":"894746372"
+}
+
+### UPDATE CONTACT
+PUT http://localhost:3500/api/contacts/601eb51d6dea6f09983da835
+Content-Type: application/json
+
+{
+    "name":"Romina",
+    "lastname":"Sanchez",
+    "address":"San Lucas, California",
+    "phone":"921354673"
+}
+
+
+### DELETE CONTACT
+DELETE http://localhost:3500/api/contacts/601eb2a866f59a0c3094b9f6
